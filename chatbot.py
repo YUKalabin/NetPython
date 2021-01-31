@@ -13,7 +13,9 @@ while True:
     if command == 'help':
         print(HELP)
     elif command == 'add':
+        date = input('Введите дату: ')
         task = input('Введите задачу: ')
+        if date == 
         tasks.append(task)
     elif command == 'print':
         print(tasks)
